@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/kushtia" />
+
+        <TextView
+            android:id="@+id/textViewmainid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:text="বৃহত্তর কুষ্টিয়া জেলার সংস্কৃতি এবং ঐতিহ্য"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/buttonstartid"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/click_here"
+            android:textSize="50dp"
+            android:onClick="start" />
+
+    </LinearLayout>
+
+</RelativeLayout>

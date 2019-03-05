@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nahid.kushtiadistrict">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kushtia_map2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kushtia_map2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPage" />
+        <activity android:name=".kushtiaTownMenu" />
+        <activity android:name=".kushtiaTownSubmenu" />
+        <activity android:name=".dowlotpurContent" />
+        <activity android:name=".veramaraContent" />
+        <activity android:name=".mirpurContent" />
+        <activity android:name=".khoksha" />
+        <activity android:name=".ourTraditionMenu" />
+        <activity android:name=".fokirLalonContent" />
+        <activity android:name=".mirMosharrofContent" />
+        <activity android:name=".robindronathTagoreContent" />
+        <activity android:name=".azizurRahmanContent" />
+        <activity android:name=".horinathContent" />
+        <activity android:name=".mohoniMohonContent" />
+        <activity android:name=".myselfInfo" />
+        <activity android:name=".ourCultureMenu"></activity>
+    </application>
+
+</manifest>
